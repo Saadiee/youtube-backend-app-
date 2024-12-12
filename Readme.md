@@ -95,16 +95,28 @@ This project is a backend implementation of a YouTube-like platform. It provides
 ## Folder Structure
 
 ```plaintext
-├── src
-│   ├── controllers     # Request handlers
-│   ├── models          # Database models
-│   ├── routes          # API routes
-│   ├── middlewares     # Authentication and error handling
-│   ├── utils           # Helper functions
-│   └── app.js          # Main application setup
-├── tests               # Unit and integration tests
-├── .env.example        # Environment variable example file
-└── README.md           # Project documentation
+Backend Project/
+├── .env
+├── .gitignore
+├── .prettie
+├── .prettierignore
+├── package-lock.json
+├── package.json
+├── public/
+│   └── temp/
+│       └── .gitkeep
+├── Readme.md
+└── src/
+    ├── app.js
+    ├── constants.js
+    ├── index.js
+    ├── controllers/
+    ├── db/
+    ├── middlewares/
+    ├── models/
+    ├── routes/
+    └── utils/
+
 ```
 
 ## Future Enhancements
